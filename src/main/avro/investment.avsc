@@ -1,0 +1,9 @@
+{
+  "namespace": "inc.evil.kafka.streams.avro.cpt",
+  "type": "record",
+  "name": "Investment",
+  "fields": [
+    {"name": "id", "type": "long"},
+    {"name": "name", "type": "string"}
+  ]
+}

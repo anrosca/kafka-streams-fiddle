@@ -1,0 +1,10 @@
+{
+  "namespace": "inc.evil.kafka.streams.avro",
+  "type": "record",
+  "name": "MusicInterest",
+  "fields": [
+    {"name": "id", "type": "string"},
+    {"name": "genre", "type": "string"},
+    {"name": "artist", "type": "string"}
+  ]
+}

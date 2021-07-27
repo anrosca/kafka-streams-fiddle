@@ -1,0 +1,14 @@
+{
+  "namespace": "inc.evil.kafka.streams.avro.cpt",
+  "type": "record",
+  "name": "InvestmentRecord",
+  "fields": [
+    {"name": "id", "type": "long"},
+    {"name": "symbol", "type": "string"},
+    {"name": "amountBought", "type": "string"},
+    {"name": "spent", "type": "string"},
+    {"name": "unitPrice", "type": "string"},
+    {"name": "investmentDate", "type": "string"},
+    {"name": "investmentId", "type": "long"}
+  ]
+}
